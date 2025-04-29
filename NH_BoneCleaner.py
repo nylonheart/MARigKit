@@ -1,6 +1,6 @@
 bl_info = {
-    "name": "Bone Cleaner",
-    "author": "ChatGPT & User",
+    "name": "NH_BoneCleaner",
+    "author": "Nylonheart",
     "version": (1, 4),
     "blender": (4, 4, 0),
     "location": "View3D > Sidebar > Nylonheart",
@@ -137,7 +137,7 @@ class BONECLEANER_OT_DeleteUnusedVertexGroups(Operator):
         return {'FINISHED'}
 
 class BONECLEANER_PT_Panel(Panel):
-    bl_label = "Bone Cleaner"
+    bl_label = "Rig Bone Cleaner"
     bl_idname = "BONECLEANER_PT_panel"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'

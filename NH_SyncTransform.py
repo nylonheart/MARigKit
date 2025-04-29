@@ -140,7 +140,7 @@ class NH_OT_RemoveSyncTransform(bpy.types.Operator):
 
 
 class NH_PT_SyncTransformPanel(bpy.types.Panel):
-    bl_label = "NH_SyncTransform"
+    bl_label = "Rig Sync Transform"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
     bl_category = 'Nylonheart'
