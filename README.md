@@ -59,11 +59,27 @@
 
 ---
 
-## 🛠️ インストール方法
+## 🛠️ インストール方法（スタートアップフォルダ方式）
 
-1. [リリースページ]から最新バージョンの `.zip` ファイルをダウンロード
-2. Blenderの「編集」>「プリファレンス」>「アドオン」>「インストール」から `.zip` を指定
-3. 「Nylonheart」カテゴリにある「Bone Cleaner」と「Sync Transform」を有効化
+1. Blenderの「アドオンフォルダ」を開きます  
+   - Windows:  
+     `C:\Users\あなたのユーザー名\AppData\Roaming\Blender Foundation\Blender\<バージョン番号>\scripts\addons`
+   - Mac:  
+     `~/Library/Application Support/Blender/<バージョン番号>/scripts/addons`
+   - Linux:  
+     `~/.config/blender/<バージョン番号>/scripts/addons`
+
+2. ダウンロードした `.py` ファイルをそのままコピーします
+   - 例：`NH_BoneCleaner.py`、`NH_SyncTransform.py` など
+
+3. Blenderを再起動します
+
+4. 「編集」→「プリファレンス」→「アドオン」から
+   - 「Nylonheart」などで検索
+   - 見つかったアドオンにチェックを入れて有効化します
+
+✅ これだけで使用可能です！
+
 
 ---
 
